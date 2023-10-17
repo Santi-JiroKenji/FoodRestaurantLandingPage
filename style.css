@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+* {
+  /*font-family: 'Roboto Serif', serif;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  cursor: default;
+}
+
+header {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: linear-gradient(100deg, #ffe001 70%, #ebe9ac 30%);
+  color: #000;
+}
+
+header .header-home {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo img {
+  height: 8rem;
+  padding-left: 5.5rem;
+  padding-top: 3.5rem;
+}
+
+header .toolbar .contact {
+  padding-right: 5.5rem;
+  padding-top: 3.5rem;
+  display: flex;
+  justify-content: end;
+}
+
+header .toolbar .detail-contact {
+  font-size: 1.7rem;
+  font-family: "prompt";
+  text-transform: uppercase;
+}
+
+header .toolbar .detail-contact h5 {
+  float: right;
+  font-size: 1.2rem;
+}
+
+header .toolbar .icon-contact img {
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+header .toolbar .navbar {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+}
+
+header .toolbar .navbar a {
+  font-family: "prompt";
+  font-size: 1.3rem;
+  color: #000;
+  padding-right: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+header .content-home {
+  padding-left: 9rem;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+header .content-home .left-content {
+  display: flex;
+}
+
+header .content-home .left-content .image .leaf {
+  height: 2.5rem;
+  transform: rotate(60deg);
+}
+
+header .content-home .left-content .tomato img {
+  height: 6rem;
+  float: right;
+  margin-right: -6rem;
+  margin-top: 2rem;
+}
+
+header .content-home .left-content .content {
+  margin-left: -2rem;
+  margin-top: -1rem;
+}
+
+header .content-home .left-content .content h2 {
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 5rem;
+  padding-left: 3.5rem;
+}
+
+header .content-home .left-content .content h1 {
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+header .content-home .left-content .content h4 {
+  font-family: "prompt";
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 2.6rem;
+}
+
+header .content-home .left-content .content hr {
+  width: 32.5rem;
+  margin-top: 2rem;
+  margin-left: 2.6rem;
+  background-color: #000;
+  height: 0.1rem;
+  border: none;
+}
+
+header .content-home .left-content .content .promotion {
+  padding-top: 2rem;
+  padding-left: 7rem;
+  display: flex;
+}
+
+header .content-home .left-content .content .promotion .text-promotion {
+  font-family: "roboto";
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+header .content-home .left-content .content .promotion .order-promotion {
+  font-family: "roboto";
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  margin-top: -0.8rem;
+}
+
+header .content-home .left-content .content .order-button {
+  padding-left: 11rem;
+  padding-top: 2rem;
+}
+
+header .content-home .left-content .content .order-button .btn {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-family: "prompt";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: none;
+  border: 0.1rem solid #000;
+  cursor: pointer;
+}
+
+header .content-home .right-content .main-food {
+  padding-left: 12rem;
+}
+
+header .content-home .right-content .main-food img {
+  height: 42rem;
+  margin-top: -3rem;
+  filter: drop-shadow(0rem 0rem 5rem rgb(168, 162, 162));
+}
+
+header .content-home .right-content img.pasta {
+  height: 6rem;
+  transform: rotate(-100deg);
+  margin-left: 10rem;
+  margin-top: -5rem;
+}
+
+header .content-home .right-content img.leaf {
+  height: 6.5rem;
+  float: right;
+  margin-top: -12rem;
+  margin-right: -6rem;
+}
+
+/* ------ end header ----- */
+
+img.spaghetti {
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -9rem;
+}
+
+/* ------ menu section ------ */
+
+.menu {
+  padding-bottom: 25rem;
+  margin-top: -5rem;
+}
+
+.menu .menu-header {
+  text-align: center;
+}
+
+.menu .menu-header h1 {
+  font-family: "roboto";
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu .menu-header h5 {
+  font-family: "prompt";
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding-top: 1rem;
+}
+
+.menu .bg-menu {
+  background-color: #e8e6a9;
+  height: 10rem;
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: "prompt";
+}
+
+.menu .bg-menu .menu1 img {
+  height: 25rem;
+  margin-top: -7rem;
+  filter: drop-shadow(0.5rem 1rem 1rem rgb(166, 158, 158));
+}
+
+.menu .bg-menu .menu2 img {
+  height: 25rem;
+  margin-top: -7rem;
+  filter: drop-shadow(0.5rem 1rem 1rem rgb(166, 158, 158));
+}
+
+.menu .bg-menu .menu3 img {
+  height: 25rem;
+  margin-top: -7rem;
+  filter: drop-shadow(0.5rem 1rem 1rem rgb(166, 158, 158));
+}
+
+.menu .bg-menu h3 {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.menu .bg-menu h4 {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+.menu .bg-menu .order-button {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.menu .bg-menu .order-button .btn {
+  padding: 1rem 2rem 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background: #ffe001;
+  /* border: .1rem solid #000; */
+  border: none;
+  cursor: pointer;
+}
+
+/* ------ end menu ------ */
+
+/* ------ our story ------ */
+
+.our-story {
+  padding-top: 5.5rem;
+  padding-bottom: 5rem;
+}
+
+.our-story .story-header {
+  text-align: center;
+}
+
+.our-story .story-header h3 {
+  font-family: "prompt";
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.our-story .story-header h1 {
+  font-family: "roboto";
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.our-story .story-header h5 {
+  font-family: "prompt";
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding-top: 1rem;
+}
+
+.our-story .story-menu {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.our-story .story-menu .menu1 {
+  margin-right: -2rem;
+  margin-top: 3.5rem;
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+.our-story .story-menu .menu2 img {
+  width: 50rem;
+  height: 30rem;
+  filter: drop-shadow(0rem 0rem 1.5rem rgb(71, 71, 71));
+}
+
+.our-story .story-menu .menu3 {
+  margin-left: -2rem;
+  margin-top: 3.5rem;
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+.our-story .dot-selected {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.our-story .dot-selected div {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+}
+
+.our-story .dot-selected div.selected {
+  background-color: #ffe001;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.our-story .recom-menu {
+  padding-top: 7.5rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "prompt";
+}
+
+.our-story .recom-menu .recom-menu1 {
+  background: url(./images/recom-menu1.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 37rem;
+  height: 27rem;
+  padding: 2.5rem;
+}
+
+.our-story .recom-menu .recom-menu2-3 {
+  padding-left: 2.5rem;
+}
+
+.our-story .recom-menu .recom-menu2-3 .recom-menu2 {
+  background: url(./images/recom-menu2.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 37rem;
+  height: 12rem;
+  padding: 1.5rem;
+}
+
+.our-story .recom-menu .recom-menu2-3 .recom-menu3 {
+  background: url(./images/recom-menu3.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 37rem;
+  height: 12rem;
+  padding: 1.5rem;
+  margin-top: 2.23rem;
+}
+
+.our-story .recom-menu h3 {
+  font-size: 1.5rem;
+}
+
+.our-story .recom-menu h2 {
+  font-size: 2.5rem;
+}
+
+/* ------ end our story ------ */
+
+/* ------ contact ------ */
+.contact-us {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.contact-us .contact-header {
+  text-align: center;
+}
+
+.contact-us .contact-header h3 {
+  font-family: "prompt";
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-us .contact-header h1 {
+  font-family: "roboto";
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-us .input-contact {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us .input-contact .input-right {
+  margin-left: 2rem;
+}
+
+.contact-us .input-contact input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-family: "prompt";
+  margin-top: 1.5rem;
+  width: 25rem;
+  border: 0.1rem solid #bebebe;
+  color: #bebebe;
+  border-radius: 0.3rem;
+}
+
+.contact-us .input-contact button {
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  font-family: "prompt";
+  margin-top: 1.5rem;
+  width: 25rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #ffe001;
+}
+
+/* ------ end contact us ------ */
+
+/* ------ footer ------ */
+
+footer {
+  background: url(./images/bg-footer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 37rem;
+  color: #fff;
+  font-family: "prompt";
+  display: flex;
+  justify-content: center;
+}
+
+footer .content-left {
+  padding-top: 4rem;
+}
+
+footer .content-left .logo img {
+  height: 5rem;
+}
+
+footer .content-left .content {
+  padding-top: 5rem;
+}
+
+footer .content-left .content h4 {
+  font-weight: 200;
+}
+
+footer .content-left .copy-rights {
+  padding-top: 10rem;
+}
+
+footer .content-left .copy-rights h4 {
+  font-weight: 300;
+}
+
+footer .content-right {
+  margin-left: 30rem;
+  padding-top: 15rem;
+}
+
+footer .content-right .contact .local {
+  display: flex;
+}
+
+footer .content-right .contact .email {
+  display: flex;
+  padding-top: 1rem;
+}
+
+footer .content-right .contact .local .fa-solid.fa-location-dot {
+  color: #ffe001;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+}
+
+footer .content-right .contact .email .fa-solid.fa-envelope {
+  color: #ffe001;
+  font-size: 1.5rem;
+  margin-top: -0.2rem;
+  margin-left: -.2rem;
+}
+
+footer .content-right .contact h4 {
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+footer .content-right .social {
+  display: flex;
+  color: #000;
+  padding-top: 10.5rem;
+  justify-content: end;
+}
+
+footer .content-right .social .fa-brands.fa-instagram, 
+footer .content-right .social .fa-brands.fa-facebook-f,
+footer .content-right .social .fa-brands.fa-twitter,
+footer .content-right .social .fa-brands.fa-whatsapp{
+  font-size: 1.5rem;
+  padding-left: .34rem;
+  padding-top: .2rem;
+}
+
+footer .content-right .social .instagram, .facebook, .twitter, .whatapp {
+  background-color: #fff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-left: .8rem;
+}
